@@ -1,0 +1,25 @@
+.active{
+    background-color: rgba(0, 89, 255, 0.705);
+    width: 100%;
+    border-radius: 25px;
+}
+.active button{
+    color:white;
+    text-align: center;
+}
+
+.active button:hover ,.active a:active{
+    color:lightgrey
+}
+
+#new_result, #new_result_love,#new_result_fiction,#new_result_poetry,#new_result_novels{
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) -50px 0px 30px -30px inset;
+    z-index: 1;
+}
+.card{
+    z-index: -1;
+}
+body{
+    overflow: hidden visible;
+}
